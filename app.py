@@ -81,7 +81,7 @@ def get_user_by_username(username):
     user_data = cursor.fetchone()
     conn.close()
     return user_data
-
+# this is starting route
 
 @app.route('/')
 def hello():
